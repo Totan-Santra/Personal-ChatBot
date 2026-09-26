@@ -1,0 +1,32 @@
+[project]
+name = "agent-project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Totan", email = "santratotan49@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "langchain>=1.4.2",
+    "langchain-chroma>=1.1.0",
+    "langchain-community>=0.4.2",
+    "langchain-core>=1.6.5",
+    "langchain-groq>=1.1.3",
+    "langchain-tavily>=0.2.18",
+    "langgraph>=1.2.12",
+    "langgraph-checkpoint-sqlite>=3.1.1",
+    "numexpr>=2.14.2",
+    "pypdf>=6.19.0",
+    "python-dotenv>=1.2.3",
+    "ragas>=0.4.3",
+    "sentence-transformers>=6.1.0",
+    "streamlit>=1.64.0",
+]
+
+[project.scripts]
+agent-project = "agent_project:main"
+
+[build-system]
+requires = ["uv_build>=0.12.5,<0.13.0"]
+build-backend = "uv_build"
