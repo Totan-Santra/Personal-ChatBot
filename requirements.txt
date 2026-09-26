@@ -15,8 +15,8 @@ rank-bm25==0.2.2
 pypdf
 sentence-transformers
 
+--extra-index-url https://download.pytorch.org/whl/cpu
 torch
-torchvision
 
 python-dotenv
 ragas
